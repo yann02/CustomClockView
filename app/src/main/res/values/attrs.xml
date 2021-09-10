@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ClockView">
+        <attr name="ear_color" format="color|reference" />
+        <attr name="foot_color" format="color|reference" />
+        <attr name="head_color" format="color|reference" />
+        <attr name="edge_color" format="color|reference" />
+        <attr name="scale_color" format="color|reference" />
+        <attr name="center_point_color" format="color|reference" />
+        <attr name="hour_hand_color" format="color|reference" />
+        <attr name="minute_hand_color" format="color|reference" />
+        <attr name="second_hand_color" format="color|reference" />
+        <attr name="src" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomViewImage">
+        <attr name="abc" format="string"/>
+    </declare-styleable>
+</resources>
